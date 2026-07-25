@@ -3,26 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AhaTodo - Smart To-Do App</title>
+    <meta name="description" content="CleanPro helps Android users review storage usage, clean junk files, and manage device space with clear, simple tools.">
+    <title>CleanPro - Android Cleaner App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="logo.png" alt="AhaTodo Logo" class="logo">
-        <h1>AhaTodo</h1>
-        <p>Organize your tasks effortlessly and stay productive every day!</p>
-        <a href="https://play.google.com/store/apps/details?id=com.aha.cxk.todo" class="btn">Download on Google Play</a>
+    <header class="hero">
+        <nav class="topbar" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="CleanPro home">
+                <img src="logo.png" alt="" class="logo">
+                <span>CleanPro</span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#privacy">Privacy</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <section id="home" class="hero-content">
+            <p class="eyebrow">Android storage cleaner</p>
+            <h1>CleanPro</h1>
+            <p class="summary">
+                CleanPro helps you review storage usage, remove unnecessary files, and keep your Android device organized.
+            </p>
+            <div class="actions">
+                <a href="https://play.google.com/store/apps/details?id=com.ylc" class="btn primary">View on Google Play</a>
+                <a href="#privacy" class="btn secondary">Privacy Policy</a>
+            </div>
+        </section>
     </header>
 
-    <section class="features">
-        <h2>Features</h2>
-        <div class="feature-card">✔ Create & Manage Tasks</div>
-    </section>
+    <main>
+        <section id="features" class="section">
+            <div class="section-heading">
+                <p class="eyebrow">Features</p>
+                <h2>Simple tools for everyday cleanup</h2>
+            </div>
+            <div class="feature-grid">
+                <article class="feature-card">
+                    <h3>Storage Review</h3>
+                    <p>See device storage information in a clear format so you can understand what needs attention.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Junk File Cleanup</h3>
+                    <p>Find and clean unnecessary files that may take up space on your Android device.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Easy Device Care</h3>
+                    <p>Use straightforward cleanup actions designed for quick, everyday maintenance.</p>
+                </article>
+            </div>
+        </section>
 
-    <section class="contact">
-        <h2>Contact</h2>
-        <p>Email: yuliuqi0329@gmail.com</p>
-    </section>
+        <section id="privacy" class="section privacy-section">
+            <div class="section-heading">
+                <p class="eyebrow">Privacy Policy</p>
+                <h2>Your privacy matters</h2>
+            </div>
+            <div class="policy">
+                <p>
+                    CleanPro is designed to help users manage storage and clean unnecessary files. The app may use device
+                    permissions only to provide cleaning, storage review, security, and app functionality.
+                </p>
+                <p>
+                    We do not sell personal information. If advertising or analytics services are used, they may collect
+                    standard device, usage, and advertising data according to their own policies and applicable law.
+                </p>
+                <p>
+                    For privacy questions, data requests, or support, contact the developer at
+                    <a href="mailto:yuliuqi0329@gmail.com">yuliuqi0329@gmail.com</a>.
+                </p>
+                <p class="updated">Last updated: July 26, 2026</p>
+            </div>
+        </section>
 
+        <section id="contact" class="section contact-section">
+            <div>
+                <p class="eyebrow">Developer</p>
+                <h2>Yu Liuqi</h2>
+                <p>Email: <a href="mailto:yuliuqi0329@gmail.com">yuliuqi0329@gmail.com</a></p>
+            </div>
+            <a href="https://play.google.com/store/apps/details?id=com.ylc" class="btn primary">Open App Listing</a>
+        </section>
+    </main>
 </body>
 </html>
